@@ -13,7 +13,7 @@ const Input = () => {
 
     return (
         <>
-            <input type="text" ref={inputRef} />
+            <input className='input-field' type="text" ref={inputRef} />
             <button onClick={handleAddTech}>Add</button>
         </>
     )
